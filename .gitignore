@@ -1,4 +1,4 @@
-app/the-fool/.vs/*.*
+**/.vs
 app\the-fool\bin\*.*
 app\the-fool\obj\*.*
 app\the-fool\env\*.*
