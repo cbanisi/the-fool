@@ -1,5 +1,4 @@
-**/
 **/.vs
-app\the-fool\bin\*.*
-app\the-fool\obj\*.*
-app\the-fool\env\*.*
+**/bin
+**/obj
+**/env
