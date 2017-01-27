@@ -3,7 +3,7 @@ Definition of urls for the_fool.
 """
 
 from django.conf.urls import include, url
-from the_fool.app import views
+from app import views
 
 
 # Uncomment the next two lines to enable the admin:
@@ -13,7 +13,8 @@ from the_fool.app import views
 
 urlpatterns = [
     # Examples:
-    url(r'^$', views.current_datetime)
+    url(r'^$', views.current_datetime),
+    url(r'^deck/', views.deck)
     # url(r'^the_fool/', include('the_fool.the_fool.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
