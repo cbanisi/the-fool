@@ -30,11 +30,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="manage.py" />
-    <Compile Include="the_fool\app\views.py">
+    <Compile Include="app\models.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="the_fool\app\__init__.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="app\views.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\__init__.py" />
     <Compile Include="the_fool\__init__.py" />
     <Compile Include="the_fool\settings.py" />
     <Compile Include="the_fool\urls.py" />
@@ -45,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="the_fool\" />
-    <Folder Include="the_fool\app\" />
+    <Folder Include="app\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

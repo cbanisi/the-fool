@@ -2,3 +2,6 @@
 **/bin
 **/obj
 **/env
+**/__pycache__
+*.web.config
+*.web.debug.config
