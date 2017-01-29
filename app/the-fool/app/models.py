@@ -1,4 +1,4 @@
-#import collections
+
 from random import randint
 
 class TarotCardDeck():
@@ -34,7 +34,6 @@ class TarotCardDeck():
         for currentIndex, card in enumerate(self.deck):
 
             randomIndex = randint(currentIndex,len(self.deck) - 1)
-            print(randomIndex)
             #swap current index and the randomIndex
             temp = self.deck[randomIndex]
             self.deck[randomIndex] = self.deck[currentIndex]
