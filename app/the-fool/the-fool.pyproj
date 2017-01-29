@@ -44,7 +44,6 @@
     <Compile Include="the_fool\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\templates\deck.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
