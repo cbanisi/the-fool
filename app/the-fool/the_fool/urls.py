@@ -3,7 +3,7 @@ Definition of urls for the_fool.
 """
 
 from django.conf.urls import include, url
-from app import views
+from the_fool import views
 
 
 # Uncomment the next two lines to enable the admin:

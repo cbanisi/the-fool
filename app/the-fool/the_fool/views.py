@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from app.models import TarotCardDeck
+from the_fool.models import TarotCardDeck
 import datetime
 
 def current_datetime(request):

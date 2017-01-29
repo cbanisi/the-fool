@@ -1,6 +1,6 @@
 cards: 
   - Fool:
-    description: "I am the fool!"
+      description: "I am the fool!"
   - Magician
   - Priestess
   - Empress
