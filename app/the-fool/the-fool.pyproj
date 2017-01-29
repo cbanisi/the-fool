@@ -47,6 +47,7 @@
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\templates\" />
     <Folder Include="the_fool\" />
     <Folder Include="app\" />
   </ItemGroup>

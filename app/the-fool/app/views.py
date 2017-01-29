@@ -11,5 +11,13 @@ def deck(request):
     deck = TarotCardDeck();
     htmlResponse = ''
     for card in deck.shuffle():
-        htmlResponse += card + "</br>"
+        htmlResponse += card.name + "</br>"
+    return HttpResponse(htmlResponse)
+
+def game(request):
+    deck = TarotCardDeck()
+    htmlResponse = ''
+    shuffledDeck = deck.shuffle()[:5]
+    for card in shuffledDeck:
+        htmlResponse += card.name + "</br>"
     return HttpResponse(htmlResponse)
