@@ -17,10 +17,10 @@ python:
 env:
   - DJANGO=1.10.5
 
-before_install:
-  - export DJANGO_SETTINGS_MODULE=app/the-fool/manage.py
-  - export PYTHONPATH=$HOME/builds/bearly-software/the-fool
-  - export PIP_USE_MIRRORS=true
+#before_install:
+#  - export DJANGO_SETTINGS_MODULE=app/the-fool/manage.py
+#  - export PYTHONPATH=$HOME/builds/bearly-software/the-fool
+#  - export PIP_USE_MIRRORS=true
 
 install:
   - pip install -r app/the-fool/requirements.txt
