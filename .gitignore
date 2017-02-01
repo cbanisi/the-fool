@@ -4,5 +4,6 @@
 **/env
 **/__pycache__
 **/.vscode
+**/*.pyc
 app/the-fool/web.config
 app/the-fool/web.debug.config
