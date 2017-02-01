@@ -19,4 +19,5 @@ install:
   - pip install -r app/the-fool/requirements.txt
 
 script:
-  - python app/the-fool/manage.py test -p *Test.py
+  - cd app/the-fool
+  - python manage.py test -p *Test.py
