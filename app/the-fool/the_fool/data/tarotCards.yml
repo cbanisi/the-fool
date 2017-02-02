@@ -48,7 +48,7 @@ cards:
       name: "Devil"
       description: "SO BAD"
   - Tower:
-      name: "Devil"
+      name: "Tower"
       description: "Omens, the bad kind."
   - Star:
       name: "Star"
