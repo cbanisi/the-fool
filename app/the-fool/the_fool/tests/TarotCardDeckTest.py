@@ -14,3 +14,17 @@ class TarotCardDeckTestCase(TestCase):
     def test_shuffle_returns_deck(self):
         tarotCardDeck = TarotCardDeck()
         self.assertEqual(len(tarotCardDeck.shuffle()),22)
+
+    def test_card_names_are_unique(self):
+	tarotCardDeck = TarotCardDeck()
+	name_set = set()
+	for card in tarotCardDeck.deck:
+	    name_set.add(card.name)
+	self.assertEquals(len(name_set),22)
+
+    def test_card_definitions_are_unique(self):
+	tarotCardDeck = TarotCardDeck()
+	description_set = set()
+	for card in tarotCardDeck.deck:
+	    description_set.add(card.description)
+	self.assertEquals(len(description_set),22)
