@@ -19,5 +19,5 @@ def game(request):
     htmlResponse = ''
     shuffledDeck = deck.shuffle()[:5]
     for card in shuffledDeck:
-        htmlResponse += card.name + "</br>"
+        htmlResponse += card.name + ": " + card.description + "</br>"
     return HttpResponse(htmlResponse)

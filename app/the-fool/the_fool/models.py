@@ -1,33 +1,18 @@
 
 from random import randint
+import yaml
 
 class TarotCardDeck():
 
     def __init__(self):
-        self.deck = [
-                TarotCard("Fool"),
-                TarotCard("Magician"),
-                TarotCard("Priestess"),
-                TarotCard("Empress"),
-                TarotCard("Emperor"),
-                TarotCard("Hierophant"),
-                TarotCard("Lovers"),
-                TarotCard("Chariot"),
-                TarotCard("Strength"),
-                TarotCard("Hermit"),
-                TarotCard("Fortune"),
-                TarotCard("Justice"),
-                TarotCard("Hangedman"),
-                TarotCard("Death"),
-                TarotCard("Temperance"),
-                TarotCard("Devil"),
-                TarotCard("Tower"),
-                TarotCard("Star"),
-                TarotCard("Moon"),
-                TarotCard("Sun"),
-                TarotCard("Judgement"),
-                TarotCard("World")
-            ];
+        self.deck = []
+
+        with open('the_fool/data/tarotCards.yml', 'r') as stream:
+            doc = yaml.load(stream)
+            
+            for card in doc['cards']:
+                cardKey = next(iter(card))
+                self.deck.append(TarotCard(card[cardKey]['name'], card[cardKey]['description']))
 
     def shuffle(self):
         
@@ -42,5 +27,6 @@ class TarotCardDeck():
         return self.deck
 
 class TarotCard():
-    def __init__(self, name):
+    def __init__(self, name, description):
         self.name = name
+        self.description = description

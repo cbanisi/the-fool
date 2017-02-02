@@ -1,0 +1,67 @@
+cards: 
+  - Fool:
+      name: "Fool"
+      description: "I am the fool!"
+  - Magician:
+      name: "Magician"
+      description: "Magic!"
+  - Priestess:
+      name: "Priestess"
+      description: "So holy! Much wow!"
+  - Empress:
+      name: "Empress"
+      description: "Powerful lady"
+  - Emperor:
+      name: "Emperor"
+      description: "Powerful man"
+  - Hierophant:
+      name: "Hierophant"
+      description: "Pious! Go!"
+  - Lovers:
+      name: "Lovers"
+      description: "=)"
+  - Chariot:
+      name: "Chariot"
+      description: "Yeehaw"
+  - Strength:
+      name: "Strength"
+      description: "Strong like bear!"
+  - Hermit:
+      name: "Hermit"
+      description: "Hide in the shell."
+  - Fortune:
+      name: "Fortune"
+      description: "Feeling lucky?"
+  - Justice:
+      name: "Justice"
+      description: "OBJECTION!@"
+  - Hangedman:
+      name: "Hangedman"
+      description: "Sounds like it would hurt"
+  - Death:
+      name: "Death"
+      description: "The end."
+  - Temperance:
+      name: "Temperance"
+      description: "Moderation is the key."
+  - Devil:
+      name: "Devil"
+      description: "SO BAD"
+  - Tower:
+      name: "Devil"
+      description: "Omens, the bad kind."
+  - Star:
+      name: "Star"
+      description: "So Bright"
+  - Moon:
+      name: "Moon"
+      description: "The dark side?"
+  - Sun:
+      name: "Sun"
+      description: "Don't look right at it"
+  - Judgement:
+      name: "Judgement"
+      description: "Doomed"
+  - World:
+      name: "World"
+      description: "A round thing of rock"
