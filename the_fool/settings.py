@@ -26,7 +26,7 @@ SECRET_KEY = 'a016a53f-5f58-4085-8485-a9b552915a48'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['staging-env.wadqwtpunk.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['the-fool.bearly-software.com']
 
 
 # Application definition
